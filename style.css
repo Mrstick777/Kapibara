@@ -67,6 +67,12 @@ nav a{
 
 }
 
+nav a:hover{
+    background-color: #417100;
+    font-size: 20px;
+    transition:1s linear; 
+}
+
 .item a{
     text-decoration: none;
     color: black;
@@ -101,6 +107,11 @@ main h1{
 footer p{
     color: white;
     text-align: center;
+}
+
+footer:hover{
+    font-size: 20px;
+    transition:1s linear; 
 }
 
 p:hover{
@@ -190,6 +201,10 @@ footer p::before{
 
 .galka:hover{
     font-size: 20px;
+    transition:1s linear; 
+    background-color: #417100;
+    padding: 25px;
+    border-radius: 15px;
 }
 
 .capibara-text:hover{
@@ -255,3 +270,4 @@ footer p::before{
 .click{
     margin: auto;
 }
+
